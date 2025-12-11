@@ -1,7 +1,7 @@
 utils/__pycache__/
 utils/keys.py
 PROMPTING_METHODS_DETAILS.md
-_pycache__/
+__pycache__/
 agents/__pycache__/
 llm_judge_hallucination/
 previous_results/
