@@ -4,14 +4,7 @@ A: To answer "Which vehicle is the third-oldest?", we need to know: "What is the
 Q: The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are seven birds: a hummingbird, a cardinal, a blue jay, an owl, a raven, a quail, and a robin. The hummingbird is to the left of the quail. The robin is to the left of the cardinal. The blue jay is the leftmost. The cardinal is the fourth from the left. The raven is the third from the right. The owl is the third from the left. Which bird is the second from the right?
 A: To answer "Which bird is the second from the right?", we need to know: "What are the fixed positions?", "What are the positions of the remaining birds?"
 
-Q: The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. On a branch, there are seven birds: a robin, an owl, a quail, a falcon, a hummingbird, a cardinal, and a crow. The hummingbird is to the left of the falcon. The crow is to the right of the cardinal. The cardinal is the second from the right. The quail is the third from the right. The falcon is to the left of the robin. The owl is the second from the left. Which bird is the fourth from the left?
-A: To answer "Which bird is the fourth from the left?", we need to know: "What are the explicitly stated positions?", "What relative ordering constraints must be satisfied?", "What are the remaining positions that need to be filled?"
-
-Q: The following paragraphs each describe a set of seven objects arranged in a fixed order. The statements are logically consistent within each paragraph. In a golf tournament, there were seven golfers: Eli, Eve, Mel, Joe, Mya, Rob, and Ada. Ada finished above Mya. Eli finished below Joe. Eli finished above Eve. Ada finished second-to-last. Mel finished third. Rob finished fourth. Who finished third-to-last?
-A: To answer "Who finished third-to-last?", we need to know: "What are the explicitly stated positions?", "What can we infer from the relative constraints?", "What is the complete ranking?"
-
-Q: A fruit stand sells seven fruits: kiwis, plums, mangoes, watermelons, pears, peaches, and oranges. The pears are the third-cheapest. The kiwis are the second-most expensive. The pears are more expensive than the plums. The oranges are less expensive than the kiwis. The mangoes are the third-most expensive. The peaches are the second-cheapest. Which fruit is the second-cheapest?
-A: To answer "Which fruit is the second-cheapest?", we need to know: "Is the answer explicitly stated in the facts?"."""
+"""
 
 LOGICAL_DEDUCTION_SOLVE = """In an antique car show, there are seven vehicles: a bus, a motorcycle, a hatchback, a station wagon, a minivan, a truck, and a limousine. The station wagon is the fourth-newest. The motorcycle is newer than the truck. The station wagon is older than the hatchback. The minivan is newer than the hatchback. The bus is newer than the minivan. The truck is newer than the limousine.
 
